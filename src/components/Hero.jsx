@@ -2,7 +2,7 @@ import React from "react";
 import texture from "../assets/texture.png";
 const Hero = () => {
   return (
-    <div>
+    <div className="mb-4">
       <div className="relative bg-gradient-to-br from-purple-600 via-pink-500 to-orange-400 rounded-3xl overflow-hidden text-white text-center py-16 px-4">
         <img
           src={texture}
